@@ -59,16 +59,6 @@ If you'd like, I can (choose one):
 - **Implementation (in this project):** two XOR gates compute the sum stages, two AND gates form the partial carry terms, and an OR gate combines them into `Cout`. This matches the standard full-adder structure used when chaining four instances for 4-bit arithmetic.
 - **Usage:** The top-level `main` circuit instantiates four `FullAdder` boxes to implement 4-bit addition and subtraction (subtraction via two's-complement in `Complment_2`).
 
-**Exporting schematic images (PNG or SVG)**
 
-If you want images for `FullAdder`, `Unsigned_Comparaotr`, and `main`, follow these steps in Logisim-evolution:
 
-1. Open Logisim-evolution and load `Final_project.circ`.
-2. In the project tree, double-click the circuit name you want to export (e.g., `FullAdder`) so it is the active view.
-3. Adjust zoom or pan so the circuit is framed as you want (View → Zoom to Fit is helpful).
-4. Use File → Export Image (or File → Export → Image) and choose PNG or SVG. Set image size/scale and save.
 
-Notes:
-
-- I cannot render/export images from this environment because it requires the Logisim-evolution GUI or its headless export facility. If you want, I can provide a command-line recipe to export images using the Logisim-evolution JAR (requires Java and the JAR present on your system).
-- If you'd like, I can also produce a component list or a textual netlist from the project XML and include it in the repo.
