@@ -1,0 +1,38 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln
+*.iml
+*.swp
+*.swo
+*~
+.#*
+*.bak
+*.tmp
+
+# Logisim / circuit editor backups and autosaves
+*.circ.backup
+*.autosave
+*.logisim
+*~.circ
+
+# Build / dependencies (if applicable)
+node_modules/
+dist/
+build/
+
+# Python / Java artifacts (if present)
+__pycache__/
+*.py[cod]
+*.class
+
+# Logs
+*.log
